@@ -432,24 +432,6 @@ const CodeS = () => {
               </MainMidSecTop>
               <MainMidSecBottom>
 
-              <AceEditor
-  mode="python"
-  theme="twilight"
-  name="code"
-  onChange={(newValue) => changeHandler(newValue, 'code')}
-  editorProps={{ $blockScrolling: true, style: { fontFamily: 'Courier New', fontSize: 14, backgroundColor: 'red' } }}
-  width="100%"
-  height="95%"
-  value={formData.code}
-  fontSize={16}
-  setOptions={{
-    enableBasicAutocompletion: true,
-    enableLiveAutocompletion: true,
-    enableSnippets: true,
-    showLineNumbers: true,
-    tabSize: 2,
-  }}
-/>
 
               </MainMidSecBottom>
             </MainMidSec>
